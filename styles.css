@@ -1,3 +1,10 @@
 h1{
     text-align: center;
+    color: aliceblue;
+}
+.ribbon{
+    background-color: darkblue;
+}
+nav{
+    color: aliceblue;
 }
