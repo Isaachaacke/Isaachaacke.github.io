@@ -3,8 +3,12 @@ h1{
     color: aliceblue;
 }
 .ribbon{
-    background-color: darkblue;
+    background-image: url(https://wallpaper.dog/large/10765105.jpg);
 }
 nav{
     color: aliceblue;
+}
+body{
+    background-color: darkblue;
+    color: white;
 }
