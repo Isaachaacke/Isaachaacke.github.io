@@ -80,3 +80,9 @@ li {
 div {
     color: #FFFFFF;
 }
+.arrowlink {
+    background-image: url(\2192);
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    size: 200%;}
