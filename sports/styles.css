@@ -1,6 +1,13 @@
 body {
-    background-image: url(https://wallpaper.dog/large/10765105.jpg);
+   
+
 }
+header{
+    height: 100px;
+    background-size: contain;
+    background-image: url(https://wallpaper.dog/large/10765105.jpg);
+} 
+
 h1, h2{
     text-align: center;
     color: white;
