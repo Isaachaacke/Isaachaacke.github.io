@@ -1,8 +1,9 @@
+/*registration for css*/
 body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
+    background-image: url(https://wallpaper.dog/large/10765105.jpg);
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px;
@@ -74,4 +75,19 @@ input[type="file"] {
 
 a {
     color: #dfdfe2
+}
+.ribbon{
+    background-color: #0a0a23;
+    height: 60px;
+    margin-top: 0;
+    padding-top: 25px;
+}
+/*arrow css*/
+.backlink {
+        background-image: url(\2190);
+        position: fixed;
+        bottom: 15px;
+        left: 15px;
+        size: 200%;
+        color: white;
 }
