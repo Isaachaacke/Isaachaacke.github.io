@@ -1,5 +1,5 @@
 body {
-    background-color: cyan;
+    background-image: url(https://wallpaper.dog/large/10765105.jpg);
 
 
 }
@@ -7,7 +7,7 @@ body {
 header {
     height: 150px;
     margin: 0;
-    background-image: url(https://wallpaper.dog/large/10765105.jpg);
+    background-color: rgb(90, 90, 226);
     width: 100%;
 }
 
@@ -26,10 +26,10 @@ h2 {
     color: white;
 }
 .backlink {
-        background-image: "\2190";
+        background-image: url(\2190);
         position: fixed;
         bottom: 15px;
-        right: 15px;
+        left: 15px;
         size: 200%;
         color: white;
       }
