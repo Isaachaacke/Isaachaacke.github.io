@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesopinionpage.css">
     <title>Document</title>
     <script>
         function buttonClick(){
-            document.getElementById("message").innerHTML = "Thank you for the name and the password";
+            document.getElementById("message").innerHTML = "Thank you for your opinion we will happily use this information";
         }
 
     </script>
 </head>
 
 <body>
+    
     <h1>Your Sport</h1>
     <p>Different sports include:</p>
     <ui>
@@ -40,15 +41,60 @@
         <input id="other" type="checkbox" name="sport" value="other"> <label for="other">Other</label>
         <input type="textbox" placeholder="Please specify">
         <input type="submit" onclick="buttonClick()">
+        <div id="message">
+        </div>
     </fieldset>
-    <p></p>
-    <input type="text" placeholder="First name">
-    <input type="text" placeholder="Last name">
-    <input type="password" placeholder="Password">
-    <input type="submit" onclick="buttonClick()">
-    <div id="message">
-
     </div>
+    Date opened or refreshed page:
+<input type="text" id="currentDate">
+ <script>
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  document.getElementById("currentDate").value = date;
+</script>
+    Time opened or refreshed page:
+<input type="text" id="currentTime">
+<script>
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  document.getElementById("currentTime").value = time;
+</script>
 
+<p>What do you think of the warriors beating the celtics and winning the NBA championship yesterday?</p>
+<p>Who is your favorite NBA allstar</p>
+<input type="text" list="NBA players">
+<datalist id="NBA players">
+    <option value="Kevin Durant"></option>
+    <option value="LeBron James"></option>
+    <option value="Joel Embiid"></option>
+    <option value="Giannis Antetokounmpo"></option>
+    <option value="Ja Morant"></option>
+    <option value="Stephen Curry"></option>
+    <option value="Jayson Tatum"></option>
+    <option value="DeMar DeRozan"></option>
+    <option value="Andrew Wiggins"></option>
+    <option value="Trae Young"></option>
+    <option value="Nikola Jokic"></option>
+    <option value="LaMelo Ball"></option>
+    <option value="Jarret Allen"></option>
+    <option value="Devin Booker"></option>
+    <option value="Jimmy Butler"></option>
+    <option value="Rudy Gobert"></option>
+    <option value="Luka Doncic"></option>
+    <option value="Zach LaVine"></option>
+    <option value="Darius Garland"></option>
+    <option value="Khris Middleton"></option>
+    <option value="James Harden"></option>
+    <option value="Dejounte Murry"></option>
+    <option value="Donovan Mitchell"></option>
+    <option value="Karl-Anthony Towns"></option>
+    <option value="Chris Paul"></option>
+    <option value="Draymond Green"></option>
+    <option value="Fred VanVleet"></option>
+    
+</datalist>
+
+
+<div class="arrowlink"><a href="file://infotech.local/Share/Profiles%24/summer-guest-4/Downloads/Isaachaacke.github.io-2/sports/index.html">&#8594;</a></div>
 </body>
 </html>
