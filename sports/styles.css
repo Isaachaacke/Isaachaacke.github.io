@@ -23,4 +23,13 @@ h2 {
     bottom: 15px;
     right: 15px;
     size: 200%;
+    color: white;
 }
+.backlink {
+        background-image: "\2190";
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        size: 200%;
+        color: white;
+      }
