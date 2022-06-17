@@ -1,17 +1,26 @@
 body {
-   
+    background-color: cyan;
+
 
 }
-header{
-    height: 100px;
-    background-size: contain;
-    background-image: url(https://wallpaper.dog/large/10765105.jpg);
-} 
 
-h1, h2{
+header {
+    height: 150px;
+    margin: 0;
+    background-image: url(https://wallpaper.dog/large/10765105.jpg);
+    width: 100%;
+}
+
+h1,
+h2 {
     text-align: center;
     color: white;
 }
+
 .arrowlink {
-background-image: url(\2192);
+    background-image: url(\2192);
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    size: 200%;
 }
